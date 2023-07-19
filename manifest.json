@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "QuickWApp",
+    "version": "1.0",
+    "description": "Open WhatsApp with a phone number",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "scripting"
+    ],
+    "icons": {
+      "48": "QuickWApp-logos.png",
+      "128": "QuickWApp-logos.png"
+    }
+  }
+  

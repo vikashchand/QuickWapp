@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuickWApp</title>
+  <style>
+    body {
+      width: 200px;
+      background-color:#acb6e5; /* Background color with transparency */
+      backdrop-filter: blur(10px); /* Apply backdrop blur */
+      border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    input {
+      width: 80%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 2px solid black;/* Semi-transparent border for the input */
+      border-radius: 4px;
+    }
+
+           
+    button {
+            background-image: linear-gradient(to right, #f4c4f3 0%, #fc67fa  51%, #f4c4f3  100%);
+            margin: 10px;
+            padding: 10px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+         button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+    h1 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>QuickWApp</h1>
+  <p>Enter the phone number ( with the country code):</p>
+  <input type="text" id="phoneNumber" placeholder="Phone number">
+  <button id="openWhatsApp">Open WhatsApp</button>
+  <script src="popup.js"></script>
+</body>
+</html>
